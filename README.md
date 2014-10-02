@@ -21,7 +21,7 @@ whip.runSeq([promise1, promise2]).then(function () {
 Runs jobs in parallel:
 
 ```
-whip.runSeq([promise1, promise2]).then(function () {
+whip.runParallel([promise1, promise2]).then(function () {
   // This method will be executed once promise1 and
   // promise2 has been resolved.
 });
@@ -32,5 +32,5 @@ be executed in parallel:
 
 ```
 // Will behave just like runSeq:
-whip.runSeq([promise1, promise2], 1).then(function () {});
+whip.runParallel([promise1, promise2], 1).then(function () {});
 ```
