@@ -1,6 +1,6 @@
 {
   "name": "promise-whip",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Whip your promises into shape!",
   "main": "index.js",
   "scripts": {
