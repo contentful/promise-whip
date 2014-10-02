@@ -1,0 +1,25 @@
+{
+  "name": "promise-whip",
+  "version": "0.0.0",
+  "description": "Whip your promises into shape!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js test/*.js && buster-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:contentful/promise-whip.git"
+  },
+  "devDependencies": {
+    "buster": "~0.7.13"
+  },
+  "author": "Contentful GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com:contentful/promise-whip/issues"
+  },
+  "homepage": "https://github.com:contentful/promise-whip",
+  "dependencies": {
+    "bluebird": "^1.0.0"
+  }
+}
