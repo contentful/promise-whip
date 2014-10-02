@@ -1,4 +1,4 @@
-# promise-whip
+# promise-whip [![Build Status](https://travis-ci.org/contentful/promise-whip.svg?branch=master)](https://travis-ci.org/contentful/promise-whip)
 
 This packages contains some tiny promise helper method. Internally it uses
 bluebird @^1.0.0.
