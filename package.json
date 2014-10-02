@@ -11,7 +11,8 @@
     "url": "git@github.com:contentful/promise-whip.git"
   },
   "devDependencies": {
-    "buster": "~0.7.13"
+    "buster": "~0.7.13",
+    "jshint": "^2.5.6"
   },
   "author": "Contentful GmbH",
   "license": "MIT",
