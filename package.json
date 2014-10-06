@@ -4,15 +4,16 @@
   "description": "Whip your promises into shape!",
   "main": "index.js",
   "scripts": {
-    "test": "gulp && buster-test"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:contentful/promise-whip.git"
   },
   "devDependencies": {
-    "buster": "~0.7.13",
+    "buster": "^0.7.14",
     "gulp": "^3.8.8",
+    "gulp-busterjs": "^1.0.1",
     "gulp-jshint": "git://github.com/sdepold/gulp-jshint.git#feature/instafail"
   },
   "author": "Contentful GmbH",
