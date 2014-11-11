@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com:contentful/promise-whip",
   "dependencies": {
-    "bluebird": "^1.0.0"
+    "bluebird": "*"
   }
 }
